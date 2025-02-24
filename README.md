@@ -16,11 +16,12 @@ The Caesar Cipher is one of the earliest and most straightforward encryption met
 3. **Leave Other Characters Alone**: Spaces, numbers, and symbols stay the same.
 
 **Example**:
-- **Message**: `CAT`
-- **Shift**: `2`
-- **Encrypted Message**: `ECV`  
-  (C → E, A → C, T → V)
-
+```
+Message: CAT
+Shift: 2
+Encrypted Message: ECV  
+(C → E, A → C, T → V)
+```
 ---
 
 #### **Decryption**
@@ -31,7 +32,9 @@ The Caesar Cipher is one of the earliest and most straightforward encryption met
 3. **Leave Other Characters Alone**: Spaces, numbers, and symbols stay the same.
 
 **Example**:
-- **Encrypted Message**: `ECV`
-- **Shift**: `2`
-- **Decrypted Message**: `CAT`  
-  (E → C, C → A, V → T)
+```
+Encrypted Message: ECV
+Shift: 2
+Decrypted Message: CAT  
+(E → C, C → A, V → T)
+```
